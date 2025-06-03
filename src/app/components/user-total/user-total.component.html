@@ -1,0 +1,6 @@
+<div *ngIf="summary$ | async as summary" class="info-block">
+  <label>Total Orders:</label>
+  <div class="value">
+    ${{ summary.total | number: '1.0-0' }}
+  </div>
+</div>

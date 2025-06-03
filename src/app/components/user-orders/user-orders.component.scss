@@ -1,0 +1,41 @@
+.user-summary-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.summary-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+.summary-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+app-user-name,
+app-user-total {
+  flex: 1 1 300px;
+  padding: 1.25rem 1.5rem;
+  background-color: #f8f9fb;
+  border-radius: 12px;
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+app-user-name p,
+app-user-total p {
+  font-size: 1.1rem;
+  margin: 0;
+  color: #333;
+}
